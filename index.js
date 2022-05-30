@@ -1,0 +1,12 @@
+import Vehicle from "./Vehicle.js";
+import Car from "./Car.js";
+import Motorcycle from "./Motorcycle.js";
+
+const myVehicle = new Vehicle("Monocycle", "red", 1);
+// myVehicle.logTypeAndProps();
+console.log(myVehicle);
+const myCar = new Car("DeLorean DMC-12", "silver");
+// myCar.logTypeAndProps();
+
+const myMotorcyle = new Motorcycle("Kawasa­ki ZZR 250", "yellow");
+// myMotorcyle.logTypeAndProps();
